@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd TshAkEapi
+cd BMW
 red() {
   printf '\e[1;31m%s\n\e[0;39;49m' "$@"
 }
@@ -18,9 +18,9 @@ Dev() {
 aa() {
  sudo apt-get install
 }
-function logo1_TshAkE() {
-green "     »»             Welcome to TshAkE APi bot                       ««      "
-green "     »»               I install it for you                          ««      "
+function logo1_BMW() {
+green "     Â»Â»             Welcome to BMW CLi bot                       Â«Â«      "
+green "     Â»Â»               I install it for you                          Â«Â«      "
 yellow ""
 yellow ""
 yellow ""
@@ -32,7 +32,7 @@ yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 }
-function logo2_TshAkE() {
+function logo2_BMW() {
 yellow ""
 yellow ""
 yellow ""
@@ -44,19 +44,19 @@ yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 yellow ""
-Dev    "            Dev @lIMyIl"
-Dev    "            Dev @EMADOFFICAL"
-Dev    "            Dev @IX00XI"
-Dev    "            Dev @H_173"
-Dev    "            Dev @lIESIl"
-Dev    "            Dev @h_k_a"
+Dev    "            Dev @Tel_i_i56"
+Dev    "            Dev @Ayngel_K"
+Dev    "            Dev @TOTATY98"
+Dev    "            Dev @Alo0oshi_9"
+Dev    "            Dev @Jajsjsjssjjs"
+Dev    "            Dev @kazzrr"
 yellow ""
 yellow ""
-green "     »»           TshAkE APi successfully installed                 ««      "
-green "     »»            Run this command for launch bot                  ««      "
-red   "     »»                   ./TSHAKE.sh                               ««      "
+green "     Â»Â»           BMW CLi successfully installed                 Â«Â«      "
+green "     Â»Â»            Run this command for launch bot                  Â«Â«      "
+red   "     Â»Â»                   ./TSHAKE.sh                               Â«Â«      "
 }
-function install_TshAkE() {
+function install_BMW() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -78,7 +78,7 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 }
-function VICTOR_TshAkE() {
+function VICTOR_BMW() {
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  rm luarocks-2.2.2.tar.gz
@@ -106,32 +106,21 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo pip install redis
  cd ..
 }
-function MOODY_TshAkE() {
- cd TshAkEapi
+function MOODY_BMW() {
+ cd TshAkE
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
 }
-function chmod_TshAkE() {
+function chmod_BMW() {
  chmod +x tg
- chmod +x TSHAKE.sh
- chmod +x TSHAKE-Auto.sh
+ chmod +x BMW.sh
+ chmod +x BMW-Auto.sh
 }
 
-logo1_TshAkE
-install_TshAkE
-VICTOR_TshAkE
-MOODY_TshAkE
-chmod_TshAkE
-logo2_TshAkE
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
+logo1_BMW
+install_BMW
+VICTOR_BMW
+MOODY_BMW
+chmod_BMW
+logo2_BMW
