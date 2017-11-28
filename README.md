@@ -10,11 +10,11 @@
 
 • افتح ترمنال وحط
 
-git clone https://github.com/moodlIMyIl/BMW2018
+git clone https://github.com/moodlIMyIl/BMW20018K
 
 • انتر وراه حط •
 
-cd BMW2018 
+cd BMW20018K
 
 • وانتر وراه حط •
 
@@ -28,7 +28,7 @@ chmod +x install.sh
 
 • او نصب بكود واحد
 
-git clone https://github.com/moodlIMyIl/BMW2018 && cd BMW20018&& chmod +x install.sh && ./install.sh
+git clone https://github.com/moodlIMyIl/BMW20018K && cd BMW20018K&& chmod +x install.sh && ./install.sh
 
 • وراح يطلب منك اثناء التنصيب تحط y او n دائما اختار y •
 
@@ -36,7 +36,7 @@ git clone https://github.com/moodlIMyIl/BMW2018 && cd BMW20018&& chmod +x instal
 
 • من يخلص التنصيب تفتح ملف
 
-BMW2018.sh
+BMW.sh
 
 • وتحط التوكن بهل طريقه
 
@@ -58,7 +58,7 @@ redis-server
 
 • وراه تسوي رن من ملف
 
-BMW2018-auto.sh
+BMW-auto.sh
 
 ֆ • • • • • • • • • • • • • ֆ
 
@@ -72,7 +72,7 @@ redis-server
 
 • بعده اسوي رن من ملف
 
-BMW2018-auto.sh
+BMW-auto.sh
 
 ֆ • • • • • • • • • • • • • ֆ
 
