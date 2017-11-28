@@ -1756,7 +1756,7 @@ local function channel_get_admins(channel,cb)
     limit = result.administrator_count_
     if tonumber(limit) > 0 then
     bot.getChannelMembers(channel, 0, 'Administrators', limit,cb)
-     else return bot.sendMessage(channel, 0, 1,'ÑÈÇÊ ÇÏã?ä Ñæå äÔÏå ÇÓÊ !', 1, 'html') end
+     else return bot.sendMessage(channel, 0, 1,'Ø±Ø¨Ø§Øª Ø§Ø¯Ù…ÛŒÙ† Ú¯Ø±ÙˆÙ‡ Ù†Ø´Ø¯Ù‡ Ø§Ø³Øª !', 1, 'html') end
     end
   bot.getChannelFull(channel,callback_admins)
 end
